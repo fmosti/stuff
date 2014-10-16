@@ -1,5 +1,5 @@
 param (
-  [switch]$AutoStart = $false
+  [switch]$AutoStart = $true
 )
 
 Write-Host "AutoStart: $AutoStart"
