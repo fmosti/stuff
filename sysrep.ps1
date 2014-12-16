@@ -34,7 +34,7 @@ Set-Location -Path $Env:USERPROFILE
 [Environment]::CurrentDirectory=(Get-Location -PSProvider FileSystem).ProviderPath
  
 #change admin password
-net user Administrator $AdminPassword
+net user Administrator qweasd123
 Add-Content $log -value "Changed Administrator password"
  
 $client = new-object System.Net.WebClient
